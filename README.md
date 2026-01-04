@@ -48,7 +48,7 @@ The system accepts a binary password through a matrix keypad and forwards the en
 ## Circuit Diagram
 The complete circuit diagram showing the keypad, Arduino Uno, digital logic ICs, relay module, and solenoid lock is provided below.
 
-![Circuit Diagram](https://github.com/GaneshSarode/Digital-Logic-Keypad-Lock/blob/main/Circuit_arduino_Lock.png)
+![Circuit Diagram](Circuit_arduino_Lock.png)
 
 ## Working Principle
 When a user enters a binary password using the keypad, the Arduino reads each key press and stores the input temporarily. After four bits are entered, the Arduino sends these bits to the D flip-flop and generates a clock pulse to latch the data. The latched output is then compared with a predefined reference code using digital logic hardware. If the comparison result indicates a match, the Arduino activates the relay to unlock the solenoid and turns on the green LED. If the comparison fails, the system activates the red LED and buzzer to indicate access denial.
@@ -59,7 +59,8 @@ The system initializes all input and output devices at startup. It continuously 
 ## Demonstration Video
 A working demonstration of the project is available at the following link:
 
-▶️ (https://drive.google.com/drive/folders/1qFAE0AJx-bJ7SAtpHNI1C4CywPkGX7wV)
+▶️ [Watch Demonstration Video](https://drive.google.com/drive/folders/1qFAE0AJx-bJ7SAtpHN1C4CywPkGX7wV)
+
 
 ## Limitations
 This project accepts only binary input and is intended strictly for educational demonstration. It is not designed to provide real-world security and does not include features such as encryption, tamper detection, or user authentication management.
