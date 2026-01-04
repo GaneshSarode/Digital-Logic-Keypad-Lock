@@ -59,7 +59,7 @@ The system initializes all input and output devices at startup. It continuously 
 ## Demonstration Video
 A working demonstration of the project is available at the following link:
 
-▶️ [Watch Demonstration Video](https://drive.google.com/drive/folders/1qFAE0AJx-bJ7SAtpHN1C4CywPkGX7wV)
+▶️ [Watch Demonstration Video](https://drive.google.com/drive/folders/1qFAE0AJx-bJ7SAtpHNI1C4CywPkGX7wV)
 
 
 ## Limitations
